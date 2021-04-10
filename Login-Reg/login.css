@@ -1,0 +1,250 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-linear-gradient(left, #d186e3, #9a7bf2);
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 50px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 8px;
+
+
+}
+
+input,
+button {
+    border: brown;
+    outline: red;
+    background: none;
+}
+
+.cont {
+    border-radius: 40px;
+    overflow: hidden;
+    position: relative;
+    width: 900px;
+    height: 550px;
+    background: #fff;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+}
+
+.form {
+    position: relative;
+    width: 640px;
+    height: 100%;
+    padding: 50px 10px;
+    padding-right: 100px;
+    -webkit-transition: -webkit-transform 1.2s ease-in-out;
+    transition: -webkit-transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out;
+    transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+button:hover {
+    background: -webkit-linear-gradient(left, #9a7bf2, #d186e3);
+}
+
+.form-check {
+    align-items: center;
+}
+
+#signin {
+    margin-left: 500px;
+
+}
+
+h2 {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: -webkit-linear-gradient(#d186e3, #9a7bf2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+label {
+    display: block;
+    width: 260px;
+    margin: 25px auto 0;
+}
+
+label span {
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 0px;
+}
+
+#sign {
+    font-size: 14px;
+    font-weight: 600;
+    color: gray;
+    margin-left: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 16px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submit {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    background: -webkit-linear-gradient(left, #d186e3, #9a7bf2);
+}
+
+#sign2:hover {
+    color: #9a7bf2;
+}
+
+.forgot-pass {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #0c0101;
+    cursor: pointer;
+}
+
+#sign:hover {
+    color: 9a7bf2;
+}
+
+.social-media {
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.social-media ul {
+    list-style: none;
+}
+
+.sign-up {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    background: -webkit-linear-gradient(left, #d186e3, #9a7bf2);
+}
+
+.social-media ul li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+}
+
+.reg-btn {
+    color: rgb(48, 25, 46);
+    margin-left: 10px;
+}
+
+.fit-image {
+    margin-top: 50px;
+    max-width: 100%;
+    height: 90%;
+    /* only if you want fixed height */
+    display: flex;
+    margin-right: 5px;
+}
+
+
+form {
+    margin: 0 auto;
+    width: 300px
+}
+
+input {
+    margin-bottom: 3px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #CCC
+}
+
+button {
+    padding: 10px
+}
+
+#signup {
+    margin-right: 150px;
+}
+
+label {
+
+    cursor: pointer
+}
+
+#form-switch {
+    display: none
+}
+
+#register-form {
+    display: none;
+    width: 50%;
+    border-radius: 50px;
+    justify-content: center;
+    margin-left: 125px;
+
+}
+
+#form-switch:checked~#register-form {
+    display: block
+}
+
+#form-switch:checked~#login-form {
+    display: none
+}
+
+.reg {
+    font-variant: normal;
+}
